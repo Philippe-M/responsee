@@ -116,6 +116,7 @@ article footer p {
     margin: 10px 0 0 0;
     padding-left: 10px;
     border-bottom: 1px solid #ececec;
+    line-height: 1.8em;
 }
 .comment .info_comment {
     font-size: 0.9em;

@@ -1,7 +1,7 @@
 <?php if(!defined('PLX_ROOT')) exit; ?>
 	<?php if($plxShow->plxMotor->plxRecord_coms): ?>
 	<div class="line">
-		<div class="s-12 l-12">
+		<div class="s-12 l-12" id="comments">
 			<h2><?php echo $plxShow->artNbCom(); ?></h2>
 			<?php while($plxShow->plxMotor->plxRecord_coms->loop()): # On boucle sur les commentaires ?>
 
