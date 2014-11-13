@@ -15,6 +15,50 @@ h1 {
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
+.tag-size-1 {
+    font-size: 1em;
+}
+
+.tag-size-2 {
+    font-size: 1.1em;
+}
+
+.tag-size-3 {
+    font-size: 1.2em;
+}
+
+.tag-size-4 {
+    font-size: 1.3em;
+}
+
+.tag-size-5 {
+    font-size: 1.4em;
+}
+
+.tag-size-6 {
+    font-size: 1.5em;
+}
+
+.tag-size-7 {
+    font-size: 1.6em;
+}
+
+.tag-size-8 {
+    font-size: 1.7em;
+}
+
+.tag-size-9 {
+    font-size: 1.8em
+}
+
+.tag-size-10 {
+    font-size: 1.9em;
+}
+
+.tag-size-max {
+    font-size: 2em;
+}
+
 .aside-nav ul {
     background: none repeat scroll 0 0 #252D30;
 }
@@ -35,7 +79,7 @@ h1 {
     display: inline;
 }
 .show-aside-ul .tags a {
-    display: block;
+    display: inline-block;
 }
 .top-nav li a:hover, .aside-nav li a:hover,.aside-nav > ul > li.active-item > a:link, .aside-nav > ul > li.active-item > a:visited {
     background: none repeat scroll 0 0 #181F22;
