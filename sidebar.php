@@ -8,6 +8,7 @@
 				<div class="aside-nav">
 					<ul class="chevron">
 						<?php $plxShow->staticList($plxShow->getLang('HOME'),'<li><a href="#static_url" title="#static_name"><i class="icon-list"></i>#static_name</a></li>'); ?>
+						<?php eval($plxShow->callHook('showBlogroll', '<li><a href="#url" hreflang="#langue" title="#description"><i class="icon-list"></i>#title</a></li>')); ?>
 						<li>
 							<a><i class="icon-newspaper"></i><?php $plxShow->lang('CATEGORIES'); ?></a>
 							<ul>
@@ -23,7 +24,7 @@
 						<li>
 							<a><i class="icon-label"></i><?php $plxShow->lang('TAGS'); ?></a>
 							<ul>
-								<?php $plxShow->tagList('<li class="tags #tag_size"><a href="#tag_url" title="#tag_name">#tag_name</a></li>', 20); ?>
+								<?php $plxShow->tagList('<li class="tags #tag_size"><a href="#tag_url" title="#tag_name">#tag_name</a></li>', 20, 'alpha'); ?>
 							</ul>
 						<li>
 						<li>

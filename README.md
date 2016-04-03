@@ -15,3 +15,9 @@ Le dossiers responsee/plugins contient les fichiers php pour pouvoir intégrer l
 Par exemple pour le plugin plxMyContact copié le fichier form.contact.php dans le dossier plugins/plxMyContact.
 
 * form.contact.php : template pour plxMyContact
+
+CHANGELOG
+2016/04/03
+- [UPDATE] Update to pluxml 5.5
+- [BUG] Liste des tags après clic sur un tag dans le menu de gauche
+- [ADD] Marqueur AMP pour le référencement

@@ -4,7 +4,7 @@
 				<footer class="line">     
 					<div class="s-12 l-6">
 						<p><?php $plxShow->mainTitle('link'); ?> © 2014 - <?php $plxShow->subTitle(); ?></p>
-						<p>The background image and slideshow is propriety of <a href="http://www.blogoflip.fr" title="Philippe MALADJIAN">Philippe MALADJIAN</a>. Do not use the image in your website.</p>
+						<p>The background image and slideshow is propriety of <a href="http://www.blogoflip.fr" title="Philippe MALADJIAN"><span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Philippe MALADJIAN</span></span></a>. Do not use the image in your website.</p>
 					</div>
 					<div class="s-12 l-6">
 						<p class="right">Design and coding by <a href="http://http://www.myresponsee.com">Responsee</a></p>

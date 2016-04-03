@@ -2,6 +2,8 @@
 
 $LANG = array(
 
+'ARTICLES_DATE_UPDATE'	=> 'Mis à jour le',
+
 #header.php
 'HOME'					=> 'Accueil',
 'GOTO_CONTENT'			=> 'Aller au contenu',

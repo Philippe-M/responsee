@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
 body {
     background: none repeat scroll 0 0 #000000;
+    font-family: 'Abel', impact, tahoma;
 }
 .logo-box {
     background: none repeat scroll 0 0 #252D30;
@@ -10,7 +13,6 @@ body {
 }
 h1 {
     color: #FFFFFF;
-    font-family: impact,tahoma;
     font-size: 1.5em;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -62,9 +64,6 @@ h1 {
 .aside-nav ul {
     background: none repeat scroll 0 0 #252D30;
 }
-.aside-nav .tags {
-    display: inline;
-}
 .aside-nav li a {
     border-bottom: 1px solid #151E1F;
     color: #FFFFFF;
@@ -75,10 +74,16 @@ h1 {
 .aside-nav li > ul,.aside-nav li ul ul {
     background: none repeat scroll 0 0 #151E1F;
 }
-.show-aside-ul .tags {
+.aside-nav .tags {
     display: inline;
 }
-.show-aside-ul .tags a {
+.active-aside-item .tags a {
+    display: inline-block;
+}
+.show-aside-ul .tags a,
+.show-aside-ul .tags a:visited,
+.show-aside-ul .tags a:hover,
+.show-aside-ul .tags a:link {
     display: inline-block;
 }
 .top-nav li a:hover, .aside-nav li a:hover,.aside-nav > ul > li.active-item > a:link, .aside-nav > ul > li.active-item > a:visited {
@@ -135,7 +140,8 @@ article section p {
 article section li {
     line-height: 1.8em;
 }
-article section pre {
+article section pre,
+article section code {
     line-height: 1.8em;
     background-color: #ececec;
     padding: 10px;
@@ -145,8 +151,12 @@ article section pre {
     word-break: normal !important;
     word-wrap: normal !important;
 }
+article section a {
+    color: #e36132;
+}
 article section a:hover {
     text-decoration: underline;
+    color: #e36132;
 }
 article section .more {
     margin: 0.5em 0;
@@ -177,6 +187,9 @@ article footer p {
 .comment .rss{
     margin: 10px 0 10px 0;
 }
+.comment .type-admin {
+    margin-left: 40px;
+}
 .com-alert {
     text-align: center;
     background-color: red;
@@ -185,8 +198,8 @@ article footer p {
 }
 .author-infos {
     background-color: #ececec;
-    padding: 10px 0 10px 0;
-    margin: 10px 0 10px 0;
+    padding: 10px;
+    margin: 30px;
 }
 .author-infos p {
     padding: 0 10px 0 10px;
@@ -211,6 +224,9 @@ img#background {
 }
 .footer {
     background: none repeat scroll 0 0 #E0E0E0;
+}
+fieldset {
+    border: none;
 }
 @media screen and (max-width: 800px) {
 .aside-nav li a,#search,#social {
