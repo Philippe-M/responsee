@@ -16,7 +16,10 @@ Par exemple pour le plugin plxMyContact copié le fichier form.contact.php dans 
 
 * form.contact.php : template pour plxMyContact
 
-CHANGELOG
+## CHANGELOG
+2016/04/12
+- [BUG] Color de la tagline
+
 2016/04/03
 - [UPDATE] Update to pluxml 5.5
 - [BUG] Liste des tags après clic sur un tag dans le menu de gauche
