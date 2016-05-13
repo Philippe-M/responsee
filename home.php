@@ -39,9 +39,7 @@
 													<span itemprop="name"><?php $plxShow->artAuthor() ?></span>&nbsp;
 												</span>
 												<i class="icon-discussion"></i><?php $plxShow->artNbCom(); ?>
-												<i class="icon-clock"></i>
-												<?php $plxShow->lang('ARTICLES_DATE_UPDATE'); ?>
-												&nbsp;<?php $plxShow->artUpdateDate('#num_day/#num_month/#num_year(4)'); ?>
+												<i class="icon-clock"></i><?php $plxShow->lang('ARTICLES_DATE_UPDATE'); ?>&nbsp;<?php $plxShow->artUpdateDate('#num_day/#num_month/#num_year(4)'); ?>
 												<meta itemprop="dateModified" content="<?php $plxShow->artUpdateDate('#num_year(4)-#num_month-#num_day'); ?>">
 											</span>
 										<p>									
