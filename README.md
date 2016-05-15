@@ -17,10 +17,16 @@ Par exemple pour le plugin plxMyContact copié le fichier form.contact.php dans 
 * form.contact.php : template pour plxMyContact
 
 ## CHANGELOG
-2016/04/12
+2016/05/15 - 6.2
+- [UPDATE] la taglist passe du trie alpha à random http://forum.pluxml.org/viewtopic.php?pid=48859#p48859
+- [UPDATE] affichage de 30 tags au lieu de 20 dans la sidebar
+- [UPDATE] intégration de la police Abel et suppression de @import dans css/template-styles.css
+- [UPDATE] ajout du fichier preview.jpg et infos.xml
+
+2016/04/12 - 6.1
 - [BUG] Color de la tagline
 
-2016/04/03
+2016/04/03 - 6.0
 - [UPDATE] Update to pluxml 5.5
 - [BUG] Liste des tags après clic sur un tag dans le menu de gauche
 - [ADD] Marqueur AMP pour le référencement
