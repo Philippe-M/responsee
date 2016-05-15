@@ -28,7 +28,6 @@
 											<?php $plxShow->lang('ARTICLES_DATE_UPDATE'); ?>
 											&nbsp;<?php $plxShow->artUpdateDate('#num_day/#num_month/#num_year(4)'); ?>
                                                                         		<meta itemprop="dateModified" content="<?php $plxShow->artUpdateDate('#num_year(4)-#num_month-#num_day'); ?>">
-											<?php eval($plxShow->callHook('share_me')); ?>
 										</span></p>
                                                                         </header>
                                                                         <section itemprop="articleBody">
@@ -36,8 +35,7 @@
 										<?php $plxShow->artContent(); ?>
                                                                         </section>
                                                                         <footer>
-										<p><span><i class="icon-newspaper"></i><?php $plxShow->lang('CLASSIFIED_IN') ?> : <span itemprop="articleSection"><?php $plxShow->artCat(); ?></span>&nbsp;<i class="icon-label"></i><?php $plxShow->lang('TAGS') ?> : <?php $plxShow->artTags(); ?>
-										</span></p>
+										<p><span><i class="icon-newspaper"></i><?php $plxShow->lang('CLASSIFIED_IN') ?> : <span itemprop="articleSection"><?php $plxShow->artCat(); ?></span>&nbsp;<i class="icon-label"></i><?php $plxShow->lang('TAGS') ?> : <?php $plxShow->artTags(); ?></span></p>
                                                                         </footer>
                                                                 </div>
                                                         </div>

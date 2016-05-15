@@ -24,7 +24,7 @@
 						<li>
 							<a><i class="icon-label"></i><?php $plxShow->lang('TAGS'); ?></a>
 							<ul>
-								<?php $plxShow->tagList('<li class="tags #tag_size"><a href="#tag_url" title="#tag_name">#tag_name</a></li>', 30, 'random'); ?>
+								<?php $plxShow->tagList('<li class="tags #tag_size"><a href="#tag_url" title="#tag_name">#tag_name</a></li>', 20, 'alpha'); ?>
 							</ul>
 						<li>
 						<li>

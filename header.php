@@ -19,7 +19,6 @@
 	<link rel="icon" href="<?php $plxShow->template(); ?>/img/favicon.png" />
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/components.css">
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/responsee.css">  
-	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/abel.css">  
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/owl-carousel/owl.theme.css">
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/template-style.css">
