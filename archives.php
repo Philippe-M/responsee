@@ -21,7 +21,7 @@
 									<header>
 										<h2><span itemprop="name"><?php $plxShow->artTitle('link'); ?></span></h2>
 										<p><span>
-											<i class="icon-user"></i><?php $plxShow->lang('WRITTEN_BY'); ?> <?php $plxShow->artAuthor() ?>
+											<i class="icon-user"></i><?php $plxShow->lang('WRITTEN_BY'); ?> 
 											<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 												<span itemprop="name"><?php $plxShow->artAuthor() ?></span>&nbsp;
 											</span>
