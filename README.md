@@ -17,6 +17,10 @@ Par exemple pour le plugin plxMyContact copié le fichier form.contact.php dans 
 * form.contact.php : template pour plxMyContact
 
 ## CHANGELOG
+2016/06/09 - 6.3
+- [BUG] Corrige le bug d'affichage sur la page archive, l'auteur était affiché plusieurs fois https://github.com/Philippe-M/responsee/issues/4
+- [BUG] Ajout pour de vrai des fichiers infos.xml et preview.png https://github.com/Philippe-M/responsee/issues/3
+
 2016/05/15 - 6.2
 - [UPDATE] la taglist passe du trie alpha à random http://forum.pluxml.org/viewtopic.php?pid=48859#p48859
 - [UPDATE] affichage de 30 tags au lieu de 20 dans la sidebar
