@@ -15,7 +15,15 @@
 		</div>
 	</div>
 </div>
-<img class="lazy" id="background" class="hide-s" src="<?php $plxShow->template(); ?>/img/background.jpg" alt="">   
+<img id="background" class="hide-s" src="<?php $plxShow->template(); ?>/img/background.jpg" alt="">   
+<script type="text/javascript" charset="utf-8">
+	$(function() {
+		$("img.lazy").lazyload({
+			threshold : 200,
+			effect: "fadeIn",
+		});
+	});
+</script>
 <script type="text/javascript" src="<?php $plxShow->template(); ?>/owl-carousel/owl.carousel.min.js"></script>  
 <script type="text/javascript">
 	$(document).ready(function() {	  
@@ -27,11 +35,6 @@
 			singleItem:true
 		});	  
 	});	
-</script>
-<script type="text/javascript" charset="utf-8">
-	$(function() {
-		$("img.lazy").lazyload();
-	});
 </script>
 </body>
 </html>

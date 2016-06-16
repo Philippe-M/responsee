@@ -7,10 +7,10 @@
 					<!-- CAROUSEL --> 
 					<div class="line">
 						<div id="owl-demo" class="owl-carousel owl-theme margin-bottom">
-							<div class="item"><img class="lazy" src="<?php $plxShow->template(); ?>/img/slide-1.jpg" alt=""></div>
-							<div class="item"><img class="lazy" src="<?php $plxShow->template(); ?>/img/slide-2.jpg" alt=""></div>
-							<div class="item"><img class="lazy" src="<?php $plxShow->template(); ?>/img/slide-3.jpg" alt=""></div>
-							<div class="item"><img class="lazy" src="<?php $plxShow->template(); ?>/img/slide-4.jpg" alt=""></div>
+							<div class="item"><img src="<?php $plxShow->template(); ?>/img/slide-1.jpg" alt=""></div>
+							<div class="item"><img src="<?php $plxShow->template(); ?>/img/slide-2.jpg" alt=""></div>
+							<div class="item"><img src="<?php $plxShow->template(); ?>/img/slide-3.jpg" alt=""></div>
+							<div class="item"><img src="<?php $plxShow->template(); ?>/img/slide-4.jpg" alt=""></div>
 						</div>
 					</div>
 
@@ -46,7 +46,7 @@
 									</header>
 									<section>
 										<span itemprop="articleBody">
-										<?php $plxShow->artThumbnail('<img itemprop="image" class="art_thumbnail" src="#img_url" alt="#img_alt" title="#img_title" />'); ?>
+										<?php $plxShow->artThumbnail('<img itemprop="image" class="lazy art_thumbnail" data-original="#img_url" alt="#img_alt" title="#img_title" />'); ?>
 										<?php $plxShow->artChapo(); ?>
 										</span> 
 									</section>
