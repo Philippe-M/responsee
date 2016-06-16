@@ -40,7 +40,7 @@
 
 								<section>
 									<span itemprop="articleBody">
-									<?php $plxShow->artThumbnail('<img itemprop="image" class="art_thumbnail" src="#img_url" alt="#img_alt" title="#img_title" />'); ?>
+									<?php $plxShow->artThumbnail('<img itemprop="image" class="lazy art_thumbnail" src="#img_url" alt="#img_alt" title="#img_title" />'); ?>
 									<?php $plxShow->artChapo(); ?>
 									</span>
 								</section>

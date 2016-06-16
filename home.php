@@ -7,10 +7,10 @@
 					<!-- CAROUSEL --> 
 					<div class="line">
 						<div id="owl-demo" class="owl-carousel owl-theme margin-bottom">
-							<div class="item"><img src="<?php $plxShow->template(); ?>/img/slide-1.jpg" alt=""></div>
-							<div class="item"><img src="<?php $plxShow->template(); ?>/img/slide-2.jpg" alt=""></div>
-							<div class="item"><img src="<?php $plxShow->template(); ?>/img/slide-3.jpg" alt=""></div>
-							<div class="item"><img src="<?php $plxShow->template(); ?>/img/slide-4.jpg" alt=""></div>
+							<div class="item"><img class="lazy" src="<?php $plxShow->template(); ?>/img/slide-1.jpg" alt=""></div>
+							<div class="item"><img class="lazy" src="<?php $plxShow->template(); ?>/img/slide-2.jpg" alt=""></div>
+							<div class="item"><img class="lazy" src="<?php $plxShow->template(); ?>/img/slide-3.jpg" alt=""></div>
+							<div class="item"><img class="lazy" src="<?php $plxShow->template(); ?>/img/slide-4.jpg" alt=""></div>
 						</div>
 					</div>
 
