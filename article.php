@@ -15,7 +15,7 @@
                                                                 </div>
                                                                 <div class="s-12 l-10">
                                                                         <header>
-                                                                                <h2><span itemprop="name"><?php $plxShow->artTitle('link'); ?></span></h2>
+                                                                                <h2><span itemprop="name"><?php $plxShow->artTitle(''); ?></span></h2>
 										<p><span><i class="icon-user"></i><?php $plxShow->lang('WRITTEN_BY'); ?>
 											<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 												<span itemprop="name"><?php $plxShow->artAuthor() ?></span>
@@ -23,7 +23,7 @@
 											<span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Person">
 												<span itemprop="name"><?php $plxShow->artAuthor() ?></span>&nbsp;
 											</span>
-											&nbsp;<i class="icon-discussion"></i><?php $plxShow->artNbCom(); ?>
+											&nbsp;<a href="<?php $plxShow->artUrl(); ?>#comments" title="<?php $plxShow->artNbCom(); ?>"><i class="icon-discussion"></i><?php $plxShow->artNbCom(); ?></a>
 											&nbsp;<i class="icon-clock"></i>
 											<?php $plxShow->lang('ARTICLES_DATE_UPDATE'); ?>
 											&nbsp;<?php $plxShow->artUpdateDate('#num_day/#num_month/#num_year(4)'); ?>

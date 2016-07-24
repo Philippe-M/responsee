@@ -168,6 +168,9 @@ article footer p {
 .comment {
     margin-bottom: 10px;
 }
+.comment i {
+    color: #d0d0d0;
+}
 .comment blockquote {
     margin: 10px 0 0 0;
     padding-left: 10px;
@@ -186,8 +189,36 @@ article footer p {
 .comment .rss{
     margin: 10px 0 10px 0;
 }
-.comment .type-admin {
-    margin-left: 40px;
+.level-0 {
+    padding-left: 0;
+}
+.level-1 {
+    padding-left: 50px;
+}
+.level-2 {
+    padding-left: 100px;
+}
+.level-3 {
+    padding-left: 150px;
+}
+.level-4 {
+    padding-left: 200px;
+}
+.level-5,
+.level-max {
+    padding-left: 250px;
+}
+#id_answer {
+    margin-bottom: 10px;
+    padding:15px;
+    border:1px solid #eee;
+    width:100%;
+    background:#fafafa;
+    display:none;
+}
+.id_answer i {
+    color: #d0d0d0;
+    font-size: 1em;
 }
 .com-alert {
     text-align: center;

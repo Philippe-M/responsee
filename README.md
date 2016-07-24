@@ -17,6 +17,12 @@ Par exemple pour le plugin plxMyContact copié le fichier form.contact.php dans 
 * form.contact.php : template pour plxMyContact
 
 ## CHANGELOG
+2016/07/24 - 6.4
+- [ADD] Ajout de la fonction de réponse aux commentaires depuis un article https://github.com/Philippe-M/responsee/issues/9
+- [ADD] Lien pour accéder directement aux commentaires depuis l'entête des articles https://github.com/Philippe-M/responsee/issues/10
+- [ADD] Le titre de l'article non cliquable lorsqu'on est sur un article https://github.com/Philippe-M/responsee/issues/11
+- [ADD] Ajout d'icônes dans les commentaires pour les informations (date, auteur...) https://github.com/Philippe-M/responsee/issues/12
+
 2016/06/09 - 6.3
 - [BUG] Corrige le bug d'affichage sur la page archive, l'auteur était affiché plusieurs fois https://github.com/Philippe-M/responsee/issues/4
 - [BUG] Ajout pour de vrai des fichiers infos.xml et preview.png https://github.com/Philippe-M/responsee/issues/3
