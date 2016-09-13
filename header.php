@@ -18,6 +18,7 @@
 
 	<link rel="icon" href="<?php $plxShow->template(); ?>/img/favicon.png" />
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/components.css">
+	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/icons.css">
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/responsee.css">  
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/abel.css">
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/owl-carousel/owl.carousel.css">
@@ -30,7 +31,6 @@
 	<script type="text/javascript" src="http://code.jquery.com/ui/1.7.0/jquery-ui.min.js"></script> 
  	<script type="text/javascript" src="<?php $plxShow->template(); ?>/js/jquery.lazyload.min.js"></script>
 	<script type="text/javascript" src="<?php $plxShow->template(); ?>/js/modernizr.js"></script>
-	<script type="text/javascript" src="<?php $plxShow->template(); ?>/js/responsee.js"></script>
 	
 	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('ARTICLES_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" />
 	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires') ?>" />

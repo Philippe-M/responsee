@@ -10,6 +10,12 @@ body {
     border-bottom: 1px solid #151E1F;
     color: #ffffff;
 }
+a, a:link, a:visited, a:hover, a:active {
+    color: #152732;
+}
+p, li, dl, blockquote, table, kbd {
+    font-size: 1em;
+}
 h1 {
     color: #FFFFFF;
     font-size: 1.5em;
@@ -59,37 +65,66 @@ h1 {
 .tag-size-max {
     font-size: 2em;
 }
-
-.aside-nav ul {
-    background: none repeat scroll 0 0 #252D30;
+nav {
+    background: #252d30;
 }
-.aside-nav li a {
+.top-nav ul li,
+.aside-nav ul li {
+    background: repeat scroll 0 0 #252D30;
+}
+.top-nav li a, .top-nav li a:link, .top-nav li a:visited,
+.aside-nav li a, .aside-nav li a:link, .aside-nav li a:visited {
+    background: #252d30;
     border-bottom: 1px solid #151E1F;
     color: #FFFFFF;
 }
-.aside-nav li a:link, .aside-nav li a:visited {
-    color: #FFFFFF;
+.top-nav li > ul, 
+.aside-nav li > ul {
+    border-left: none;
+    border-right: none;
 }
-.aside-nav li > ul,.aside-nav li ul ul {
+.top-nav li > ul, .top-nav li ul ul,
+.aside-nav li > ul, .aside-nav li ul ul {
     background: none repeat scroll 0 0 #151E1F;
 }
+.top-nav .tags,
 .aside-nav .tags {
     display: inline;
+    background: none;
 }
-.active-aside-item .tags a {
-    display: inline-block;
+.aside-nav li li a:hover::before, .aside-nav li li.active-item a::before {
+    content: none;
 }
+.top-nav .tags a,
+.top-nav .tags a:visited,
+.top-nav .tags a:hover,
+.top-nav .tags a:link,
+.show-ul .tags a,
+.show-ul .tags a:visited,
+.show-ul .tags a:hover,
+.show-ul .tags a:link,
+.active-aside-item .tags a,
+.active-aside-item .tags a:visited,
+.active-aside-item .tags a:hover,
+.active-aside-item .tags a:link,
 .show-aside-ul .tags a,
 .show-aside-ul .tags a:visited,
 .show-aside-ul .tags a:hover,
 .show-aside-ul .tags a:link {
     display: inline-block;
 }
-.top-nav li a:hover, .aside-nav li a:hover,.aside-nav > ul > li.active-item > a:link, .aside-nav > ul > li.active-item > a:visited {
+.top-nav li a:hover,
+.top-nav > ul > li.active-item > a:link,
+.top-nav > ul > li.active-item > a:visited,
+.aside-nav li a:hover,
+.aside-nav > ul > li.active-item > a:link,
+.aside-nav > ul > li.active-item > a:visited {
     background: none repeat scroll 0 0 #181F22;
 }
-i {
+i[class*="icon-"] {
     color: #E36132;
+}
+i {
     display: inline-block;
     font-size: 1.2em;
     width: 1.8em;
@@ -123,7 +158,13 @@ article hr {
     color: #E0E0E0;
     margin: 1.25em 0;
 }
-article i {
+article .icon-user, 
+article .icon-discussion, 
+article .icon-newspaper, 
+article .icon-label, 
+article .icon-calendar, 
+article .icon-link, 
+article .icon-clock {
     color: #d0d0d0;
     width: 1.4em;
 }
@@ -141,6 +182,7 @@ article section li {
 }
 article section pre,
 article section code {
+    font-size: 0.8em;
     line-height: 1.8em;
     background-color: #ececec;
     padding: 10px;
@@ -174,6 +216,9 @@ article footer p {
 .comment blockquote {
     margin: 10px 0 0 0;
     padding-left: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     border-bottom: 1px solid #ececec;
     line-height: 1.8em;
 }
@@ -262,4 +307,3 @@ fieldset {
 .aside-nav li a,#search,#social {
     padding: 0.625em 1.25em;
 }
-

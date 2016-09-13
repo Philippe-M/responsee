@@ -16,7 +16,17 @@ Par exemple pour le plugin plxMyContact copié le fichier form.contact.php dans 
 
 * form.contact.php : template pour plxMyContact
 
+## BlogRoll 
+Ce plugin permet d'afficher une liste de lien que vous gérez depuis la page d'administration. J'ai modifier la version original pour permettre le choix de l'icône qui sera affiché côté public. Pour l'installer copier le répertoire plugins/Blogroll du thème dans le répertoire plugins de votre pluxml.
+
 ## CHANGELOG
+2016/09/13 - 7.0
+- [ADD] Migration du framework css Myresponsee 2 vers la version 4 https://github.com/Philippe-M/responsee/issues/2
+- [ADD] Ajout d'un menu repliable pour les écrans small et medium https://github.com/Philippe-M/responsee/issues/14
+- [BUG] Correction de l'affichage des articles sur une page categorie https://github.com/Philippe-M/responsee/issues/15
+- [BUG] Correction de l'affichage des tags dans la sidebar https://github.com/Philippe-M/responsee/issues/16
+- [ADD] Integration du plugin Blogroll https://github.com/Philippe-M/responsee/issues/17
+
 2016/07/24 - 6.4
 - [ADD] Ajout de la fonction de réponse aux commentaires depuis un article https://github.com/Philippe-M/responsee/issues/9
 - [ADD] Lien pour accéder directement aux commentaires depuis l'entête des articles https://github.com/Philippe-M/responsee/issues/10

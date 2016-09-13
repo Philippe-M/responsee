@@ -38,7 +38,7 @@
 
 									<section>
 										<span itemprop="articleBody">
-										<?php $plxShow->artThumbnail('<img itemprop="image" class="lazy art_thumbnail" data-original="#img_url" alt="#img_alt" title="#img_title" />'); ?>
+										<?php $plxShow->artThumbnail('<img itemprop="image" class="lazy art_thumbnail full-img" data-original="#img_url" alt="#img_alt" title="#img_title" />'); ?>
 										<?php $plxShow->artChapo(); ?>
 										</span>
 									</section>

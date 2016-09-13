@@ -31,7 +31,7 @@
 										</span></p>
                                                                         </header>
                                                                         <section itemprop="articleBody">
-										<?php $plxShow->artThumbnail('<img itemprop="image" class="lazy art_thumbnail" src="#img_url" alt="#img_alt" title="#img_title" />'); ?>
+										<?php $plxShow->artThumbnail('<img itemprop="image" class="lazy art_thumbnail full-img" src="#img_url" alt="#img_alt" title="#img_title" />'); ?>
 										<?php $plxShow->artContent(); ?>
                                                                         </section>
                                                                         <footer>
