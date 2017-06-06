@@ -27,8 +27,8 @@
 	<?php $plxShow->templateCss() ?>
 	<?php $plxShow->pluginsCss() ?>
 
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/ui/1.7.0/jquery-ui.min.js"></script> 
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/ui/1.7.0/jquery-ui.min.js"></script> 
  	<script type="text/javascript" src="<?php $plxShow->template(); ?>/js/jquery.lazyload.min.js"></script>
 	<script type="text/javascript" src="<?php $plxShow->template(); ?>/js/modernizr.js"></script>
 	
