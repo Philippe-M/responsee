@@ -2,8 +2,8 @@
 
 Thème responsive pour PluXml, testé avec Firefox (firefox android) chrome.
 
-* Basé sur Responsee II : http://www.myresponsee.com/
-* Demo : http://www.blogoflip.fr
+* Basé sur Responsee IV : http://www.myresponsee.com/
+* Demo : https://www.blogoflip.fr
 * Support : http://forum.pluxml.org/viewtopic.php?id=4785
 
 ## Installation
@@ -12,14 +12,26 @@ Décompresser le fichier responsivee.zip dans le répertoire theme/ de votre ins
 ## Template pour les plugins
 Le dossiers responsee/plugins contient les fichiers php pour pouvoir intégrer les plugins à la structure du thème responsee. Pour les installer copier le fichier php dans le répertoire du plugins.
 
-Par exemple pour le plugin plxMyContact copié le fichier form.contact.php dans le dossier plugins/plxMyContact.
+Par exemple pour le plugin plxMyContact copier le fichier form.contact.php dans le dossier plugins/plxMyContact.
 
 * form.contact.php : template pour plxMyContact
 
-## BlogRoll 
-Ce plugin permet d'afficher une liste de lien que vous gérez depuis la page d'administration. J'ai modifier la version original pour permettre le choix de l'icône qui sera affiché côté public. Pour l'installer copier le répertoire plugins/Blogroll du thème dans le répertoire plugins de votre pluxml.
+## BlogRoll
+Ce plugin permet d'afficher une liste de liens que vous gérez depuis la page d'administration. J'ai modifié la version original pour permettre le choix de l'icône qui sera affiché côté public. Pour l'installer copier le répertoire plugins/Blogroll du thème dans le répertoire plugins de votre pluxml.
 
 ## CHANGELOG
+2017/10/18 - 7.1
+- [UPDATE] Mise à jour pour PluXml 5.6 https://github.com/Philippe-M/responsee/issues/28
+- [ADD] Bouton pour remonter en haut de la page https://github.com/Philippe-M/responsee/issues/18
+- [ADD] Ajout des balises og:type https://github.com/Philippe-M/responsee/issues/20
+- [ADD] Ajout de la balis og:images https://github.com/Philippe-M/responsee/issues/21
+- [ADD] minification css https://github.com/Philippe-M/responsee/issues/22
+- [ADD] Ajout des balises title et alt au slideshow https://github.com/Philippe-M/responsee/issues/23
+- [ADD] Ajout des balises title et alt au background https://github.com/Philippe-M/responsee/issues/24
+- [BUG] Ajout de la traduction "ARTICLES_DATE_UPDATE", merci ouafnico, https://github.com/Philippe-M/responsee/issues/25
+- [BUG] Erreur de redirection http vers https https://github.com/Philippe-M/responsee/issues/27
+- [BUG] Mise à jour du @ https://github.com/Philippe-M/responsee/issues/29
+
 2016/09/13 - 7.0
 - [ADD] Migration du framework css Myresponsee 2 vers la version 4 https://github.com/Philippe-M/responsee/issues/2
 - [ADD] Ajout d'un menu repliable pour les écrans small et medium https://github.com/Philippe-M/responsee/issues/14

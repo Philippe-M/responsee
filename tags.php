@@ -10,38 +10,28 @@
 					<section>
 						<?php while($plxShow->plxMotor->plxRecord_arts->loop()): ?>
 						<article class="line">
-							<div itemscope itemtype="http://schema.org/Article" class="margin">
 								<div class="s-12 l-2 date">
 									<i class="icon-calendar"></i>
 									<p>
-										<meta itemprop="datePublished" content="<?php $plxShow->artDate('#num_year(4)-#num_month-#num_day'); ?>">
 										<span><?php $plxShow->artDate('#num_day</span><br />#month #num_year(4)'); ?>
 									</p>
 								</div>
 								<div class="s-12 l-10">
 									<header>
-										<h2><span itemprop="name"><?php $plxShow->artTitle('link'); ?></span></h2>
+										<h2><?php $plxShow->artTitle('link'); ?></h2>
 										<p><span>
 											<i class="icon-user"></i><?php $plxShow->lang('WRITTEN_BY'); ?>&nbsp;
-											<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-												<span itemprop="name"><?php $plxShow->artAuthor() ?></span>&nbsp;
-											</span>
-											<span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Person">
-												<span itemprop="name"><?php $plxShow->artAuthor() ?></span>&nbsp;
-											</span>
+											<span itemprop="name"><?php $plxShow->artAuthor() ?></span>&nbsp;
 											&nbsp;<i class="icon-discussion"></i><?php $plxShow->artNbCom(); ?>
 											&nbsp;<i class="icon-clock"></i>
 											<?php $plxShow->lang('ARTICLES_DATE_UPDATE'); ?>
 											&nbsp;<?php $plxShow->artUpdateDate('#num_day/#num_month/#num_year(4)'); ?>
-											<meta itemprop="dateModified" content="<?php $plxShow->artUpdateDate('#num_year(4)-#num_month-#num_day'); ?>">
 										</span><p>
 									</header>
 		
 									<section>
-										<span itemprop="articleBody">
 										<?php $plxShow->artThumbnail('<img itemprop="image" class="lazy art_thumbnail full-img" data-original="#img_url" alt="#img_alt" title="#img_title" />'); ?>
 										<?php $plxShow->artChapo(); ?>
-										</span>
 									</section>
 		
 									<footer>

@@ -10,6 +10,7 @@ $LANG = array(
 'COMMENTS'				=> 'Comments',
 'ARTICLES_RSS_FEEDS'	=> 'Rss feeds articles',
 'ARTICLES'				=> 'Articles',
+'ARTICLES_DATE_UPDATE' => 'Last update:',
 
 # sidebar.php
 'CATEGORIES' 			=> 'Categories',
